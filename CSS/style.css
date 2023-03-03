@@ -80,6 +80,16 @@ h2 {
   margin-top: -9px;
   margin-bottom: 28px;
   padding-top: 0px;
+  text-align: justify;
+}
+
+h4 {
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#94532b;
+  text-transform: uppercase;
+  font-size: 18px;
 }
   
 p {
@@ -108,6 +118,34 @@ p {
   height: auto;
   width: auto;
 }
+
+.flexContainer {
+  display: flex;
+  margin: 0px 118px 80px 118px;
+}
+
+.myskillstext {
+  width: 35%;
+  padding-right: 5%;
+  margin-right: 25px;
+}
+
+.skilltypes {
+  width: 55%;
+  padding-top: 4.5%;
+}
+
+.skillpercentages {
+  width: 10%;
+  padding-top: 4.5%;
+  font-family: "aktiv-grotesk", sans-serif;
+  font-style: normal;
+}
+
+.fontweight700 {
+  font-weight: 700;
+}
+
 
 footer {
   background-color: #323133;
