@@ -429,3 +429,16 @@ footer {
   margin-left: 5px;
   margin-right: 5px
 }
+
+@media only screen and (max-width: 600px) {
+  .casestudy1 {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "b"
+      "a1"
+      "a2"
+      "a3"
+      "a4";
+    grid-template-rows: 300px 300px 300px 600px 300px;
+  }
+}
