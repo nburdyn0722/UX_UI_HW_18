@@ -131,7 +131,7 @@ p {
 }
 
 .skilltypes {
-  width: 55%;
+  width: 65%;
   margin-bottom: 4.5%;
   margin-top: 7%;
 }
@@ -143,6 +143,8 @@ p {
   border-bottom-color: #323133;
   position: relative;
   background:#f8f7e7;
+  display:flex;
+  justify-content: space-between;
 }
 
 .indvskill1::after {
@@ -153,6 +155,7 @@ p {
   position: absolute;
   bottom: -5px;
   right: 0;
+  padding-right: 7.5%;
 }
 
 .indvskill2 {
@@ -162,6 +165,8 @@ p {
   border-bottom-color: #323133;
   position: relative;
   background:#f8f7e7;
+  display:flex;
+  justify-content: space-between;
 }
 
 .indvskill2::after {
@@ -172,6 +177,7 @@ p {
   position: absolute;
   bottom: -5px;
   right: 0;
+  padding-right: 7.5%;
 }
 
 .indvskill3 {
@@ -181,6 +187,8 @@ p {
   border-bottom-color: #323133;
   position: relative;
   background:#f8f7e7;
+  display:flex;
+  justify-content: space-between;
 }
 
 .indvskill3::after {
@@ -191,6 +199,7 @@ p {
   position: absolute;
   bottom: -5px;
   right: 0;
+  padding-right: 7.5%;
 }
 
 .indvskill4 {
@@ -200,6 +209,8 @@ p {
   border-bottom-color: #323133;
   position: relative;
   background:#f8f7e7;
+  display:flex;
+  justify-content: space-between;
 }
 
 .indvskill4::after {
@@ -210,6 +221,7 @@ p {
   position: absolute;
   bottom: -5px;
   right: 0;
+  padding-right: 7.5%;
 }
 
 .indvskill5 {
@@ -219,6 +231,8 @@ p {
   border-bottom-color: #323133;
   position: relative;
   background:#f8f7e7;
+  display:flex;
+  justify-content: space-between;
 }
 
 .indvskill5::after {
@@ -229,6 +243,7 @@ p {
   position: absolute;
   bottom: -5px;
   right: 0;
+  padding-right: 7.5%;
 }
 
 .skilltext {
@@ -241,23 +256,19 @@ p {
   margin: 0px;
 }
 
-.skillpercentages {
-  margin-bottom: 4.5%;
-  margin-top: 7%;
+.skilltextperc {
+  padding-left: 5%;
   font-family: "aktiv-grotesk", sans-serif;
-  font-style: normal;
-  text-align: right;
-  padding-left: 2%;
-}
-
-.percentmargins {
-  margin-bottom: 5.5%;
-  padding-bottom: 2%;
-  
-}
-
-.fontweight700 {
   font-weight: 700;
+  font-style: normal;
+  color:#94532b;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.casestudypreview {
+  display:grid;
 }
 
 footer {
