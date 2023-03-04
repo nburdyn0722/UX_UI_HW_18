@@ -75,7 +75,6 @@ h2 {
   text-transform: uppercase;
   font-family: "pragmatica-extended", sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 32px;
   margin-top: -9px;
   margin-bottom: 28px;
@@ -268,7 +267,68 @@ p {
 }
 
 .casestudypreview {
+  margin: 0px 118px 80px 118px;
+}
+
+.casestudy1 {
   display:grid;
+  grid-template-areas: 
+    "a1 b"
+    "a2 b"
+    "a3 b"
+    "a4 b";
+  grid-template-columns: 32.5% 62.5%;
+  column-gap: 5%;
+  background-color: #9fb084;
+  grid-template-rows: 5% 10% 70% 15%;
+  padding: 28px 28px 28px 28px;
+}
+
+.mediatype {
+  grid-area: a1;
+  padding-left: 5%;
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color:#323133;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.casestudytitle {
+  grid-area: a2;
+  margin-top: 0px;
+}
+
+.casestudyparagraph {
+  grid-area: a3;
+  padding-right: 3%;
+  text-align:left;
+}
+
+.explorebutton {
+  grid-area: a4;
+  background-color: #94532b;
+  color:#f8f7e7;
+  font-family: "aktiv-grotesk", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 50%;
+  margin-top: 6%;
+}
+
+.productpic {
+grid-area: b;
+align-items: end;
+width: 90%;
+height: 90%;
 }
 
 footer {
